@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>বিশেষ একটা চিঠি — তাসনুমের জন্য</title>
+    <title>বিশেষ একটা নোট — তাসনুমের জন্য</title>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
@@ -21,15 +21,6 @@
         .card-slide {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        /* Close-up zoom focused directly on the couple in the elevator illustration */
-        .couple-closeup {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: 36% 45%;
-            transform: scale(2.8);
-            transform-origin: 36% 45%;
-        }
     </style>
 </head>
 <body class="min-h-screen flex flex-col items-center justify-between p-4 sm:p-6 max-w-md mx-auto relative overflow-x-hidden">
@@ -46,10 +37,10 @@
         <!-- Card Stack Wrapper -->
         <div id="card-stack" class="w-full relative min-h-[440px] flex flex-col items-center justify-center">
 
-            <!-- Card 1: Close-up Image + Clean Greeting -->
+            <!-- Card 1: Emoji Badge + Clean Greeting -->
             <div class="card-item paper-card w-full rounded-3xl p-6 flex flex-col items-center text-center absolute card-slide shadow-sm" data-index="0">
-                <div class="w-36 h-36 mb-5 rounded-full overflow-hidden border-2 border-[#EADBC8] shadow-sm bg-[#F7F2EC]">
-                    <img src="couple.jpg" alt="Sadid and Tasnum" class="couple-closeup">
+                <div class="w-20 h-20 mb-5 rounded-full bg-rose-50 border border-rose-100 flex items-center justify-center text-3xl shadow-sm">
+                    ❣️
                 </div>
                 <span class="text-xs text-amber-700 font-medium bg-amber-50 px-3 py-1 rounded-full mb-3">একটা ছোট সারপ্রাইজ ✨</span>
                 <h1 class="text-2xl font-bold mb-2 text-stone-800">হ্যালো তাসনুম!</h1>
@@ -77,7 +68,7 @@
                         <span class="font-semibold text-stone-800">১০ টা স্ন্যাপ</span>
                     </div>
                     <div class="flex justify-between items-center bg-stone-50 p-2.5 rounded-xl">
-                        <span>✨ মাথা হাত বুলায় দেয়া</span>
+                        <span>✨ মাথা হাত বুলায় দেয়া</span>
                         <span class="font-semibold text-stone-800">দিনের সেরা মুহূর্ত</span>
                     </div>
                 </div>
@@ -96,12 +87,12 @@
                 <div class="w-16 h-16 mb-3 bg-rose-50 rounded-full flex items-center justify-center text-rose-500 text-2xl">
                     💌
                 </div>
-                <h2 class="text-xl font-bold mb-2 text-stone-800">অহেতুক কথা (যেটা তোমার পড়া লাগবে)</h2>
+                <h2 class="text-xl font-bold mb-2 text-stone-800">অহেতুক কথা (যেটা তোমার পড়া লাগবে)</h2>
                 <p class="text-stone-600 text-sm leading-relaxed mb-6">
-                    অনেক কিছু বলতে গিয়েও বলো, 'না কিছুনা', এই 'না কিছুনা' শুনার জন্য হলেও অনেক কথা শুনতে রাজি আছি! কোন আংটি কোন আঙুলে এটা বারবার ভুলে যাও!কাঠগোলাপ অর্ধেক করতে আমার ভাল্লাগে না! 'বাসায় কি বলবো?', আমি কি জানি কি বলবা! সব আমার কেনো বলে দেয়া লাগবে? দেখা করাটা জরুরী - আমি শুধু এটাই জানি। পুরো হাতটা ধরার অপেক্ষায় থাকা-টা সুন্দর! 
+                    অনেক কিছু বলতে গিয়েও বলো, 'না কিছুনা', এই 'না কিছুনা' শুনার জন্য হলেও অনেক কথা শুনতে রাজি আছি! কোন আংটি কোন আঙুলে এটা বারবার ভুলে যাও!কাঠগোলাপ অর্ধেক করতে আমার ভাল্লাগে না! 'বাসায় কি বলবো?', আমি কি জানি কি বলবা! সব আমার কেনো বলে দেয়া লাগবে? দেখা করাটা জরুরী - আমি শুধু এটাই জানি। পুরো হাতটা ধরার অপেক্ষায় থাকা-টা সুন্দর! 
                 </p>
                 <div class="w-full bg-amber-50/80 border border-amber-200/60 rounded-2xl p-3.5 mb-6 text-amber-900 text-xs leading-relaxed">
-                    "ফ্রি সময়ে সবাই মনে করে, ব্যাস্ত থাকলেও কেনো মনে করা জরুরী তোমাকে? হ্যা, তাসনুম?"
+                    "ফ্রি সময়ে সবাই মনে করে, ব্যাস্ত থাকলেও কেনো মনে করা জরুরী তোমাকে? হ্যা, তাসনুম?"
                 </div>
                 <div class="flex gap-2 w-full">
                     <button onclick="prevCard()" class="py-3 px-4 bg-stone-100 text-stone-700 rounded-2xl font-medium text-sm active:scale-95 transition">
@@ -120,7 +111,7 @@
                 </div>
                 <h2 class="text-xl font-bold mb-2 text-stone-800">আমাদের আবার কবে দেখা হচ্ছে?</h2>
                 <p class="text-stone-600 text-sm leading-relaxed mb-6">
-                    আমাকে বর্ষা বানাও বা বৃষ্টি আমি জানিনা, বের হওয়া জরুরী!
+                    আমাকে বর্ষা বানাও বা বৃষ্টি আমি জানিনা, বের হওয়া জরুরী!
                 </p>
                 <div class="w-full flex flex-col gap-3">
                     <button onclick="triggerSuccess()" class="w-full py-3.5 px-6 bg-rose-600 text-white rounded-2xl font-medium text-sm active:scale-95 transition shadow-md">
